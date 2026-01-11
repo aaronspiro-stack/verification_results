@@ -288,3 +288,8 @@ const VerificationReport = () => {
 };
 
 export default VerificationReport;
+
+const root = createRoot(document.getElementById('root'));
+root.render(<VerificationReport />);
+
+export default VerificationReport;
